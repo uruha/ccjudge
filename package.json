@@ -1,6 +1,6 @@
 {
   "name": "ccjudge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ServerSide cross judgement of Client request information for Client-Hints and User-Agent",
   "main": "dist/index.js",
   "files": [
