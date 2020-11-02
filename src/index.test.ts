@@ -1,4 +1,4 @@
-import { judgeIsMobile } from '../';
+import { judgeIsMobile } from './';
 
 describe('Client request judgement for mobile', () => {
     describe('[mobile: true]', () => {
