@@ -1,0 +1,31 @@
+{
+  "name": "ccjudge",
+  "version": "0.0.1",
+  "description": "ServerSide cross judgement of Client request information for Client-Hints and User-Agent",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "type:check": "tsc -p . --noEmit",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uruha/ccjudge.git"
+  },
+  "keywords": [
+    "client-hints",
+    "user-agent"
+  ],
+  "author": "Kotaro Chiba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uruha/ccjudge/issues"
+  },
+  "homepage": "https://github.com/uruha/ccjudge#readme",
+  "dependencies": {
+    "typescript": "^4.0.5"
+  }
+}
